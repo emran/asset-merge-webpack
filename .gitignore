@@ -1,0 +1,25 @@
+.DS_Store
+node_modules
+/dist
+/esm
+deploy.sh
+hack/*/values.yaml
+
+# local env files
+.env
+.env*
+!.env.example
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
